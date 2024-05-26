@@ -1,0 +1,151 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/GameNotFound/GameNotFound.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.GameNotFound_not-found__0oaZB {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  justify-items: start;
+  grid-gap: 20px;
+  gap: 20px;
+  padding: 80px 40px 0;
+}
+
+.GameNotFound_not-found__image__SWXYA {
+  width: 50%;
+  min-width: 450px;
+  margin: 0 auto;
+  display: block;
+  align-self: end;
+  
+}
+
+.GameNotFound_not-found__text__oIH6m {
+  font-size: 48px;
+}
+
+@media (max-width: 768px) {
+  .GameNotFound_not-found__0oaZB {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 20px;
+  }
+
+  .GameNotFound_not-found__image__SWXYA {
+    min-width: 300px;
+  }
+
+  .GameNotFound_not-found__text__oIH6m {
+    font-size: 32px;
+    text-align: center;
+    grid-row: 1;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/games/[id]/Game.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.Game_game__e7Yyk {
+  padding: 72px 96px;
+}
+
+.Game_game__iframe__CEKJi {
+  width: 100%;
+  height: 100%;
+  border: none;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.Game_about__KArKz {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 32px;
+  gap: 32px;
+  padding: 0 96px 72px;
+}
+
+.Game_about__title__NUaKz {
+  grid-column: 1 / -1;
+  font-size: 40px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.Game_about__title__NUaKz::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: yellow;
+  width: 80px;
+  height: 45px;
+  z-index: -1;
+  top: -10px;
+  left: -20px;
+  letter-spacing: 6%;
+}
+
+.Game_about__content__6h1Lj {
+  border-right: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 20px;
+  letter-spacing: 6%;
+  padding-right: 20px;
+}
+
+.Game_about__accent__ZgsOO {
+  font-weight: bold;
+}
+
+.Game_about__vote__vHCxI {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 20px;
+  letter-spacing: 6%;
+}
+
+.Game_about__vote-button__0lz0x:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+@media (max-width: 1200px) {
+  .Game_game__e7Yyk {
+    padding: 72px 32px;
+  }
+
+  .Game_about__KArKz {
+    padding: 0 32px 72px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Game_game__e7Yyk {
+    padding: 40px 16px;
+  }
+
+  .Game_about__KArKz {
+    grid-template-columns: 1fr;
+    padding: 0 16px 40px;
+  }
+
+  .Game_about__title__NUaKz {
+    font-size: 32px;
+  }
+
+  .Game_about__title__NUaKz::after {
+    width: 60px;
+    height: 35px;
+    top: -8px;
+    left: -16px;
+  }
+
+  .Game_about__content__6h1Lj {
+    border-right: none;
+  }
+}
+
